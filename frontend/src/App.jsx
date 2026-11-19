@@ -9,7 +9,7 @@ function App() {
                 <h1>VIO Web</h1>
 
                 <p>
-                    Venda de Ingressos Online
+                    Projeto de Integração Online
                 </p>
             </header>
 
@@ -29,6 +29,14 @@ function App() {
                     <p className="status">
                         Front-End: Online
                     </p>
+
+                    <footer className="identificacao" aria-label="Identificação do estudante">
+                        <div className="identificacao-autor">
+                            <p className="identificacao-legenda">Desenvolvido por</p>
+                            <p className="identificacao-nome">Guilherme Barbosa Baldoino Campos</p>
+                        </div>
+                        <span className="identificacao-turma">4ºDSM</span>
+                    </footer>
 
                 </section>
 
